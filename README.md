@@ -42,6 +42,7 @@ A `project_sources` mappában találhatók:
 * Least-stressed.txt
 * Exatlonheights.xlsx
 * Most-stressed.txt
+* Stressz-pontszamok.xlsx
 * Top15-shortest.txt
 * Top10-tallest-men.txt
 * Top10-tallest-women.txt
