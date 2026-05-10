@@ -9,12 +9,12 @@ A projekt röviden bemutatja az egyéni várható magasság becslésének lehet�
 * kevésbé pontos módszerek (pl. szülők magasságának átlagolása, Tanner-módszer)
 * pontosabb eljárások (pl. Khamis–Roche módszer, csontröntgen alapú becslés)
 
-Ezt követően egy kisebb, 48 fős adathalmaz elemzése történik a következő eszközökkel:
+Ezt követően egy 48 fős adathalmaz elemzése történik a következő eszközökkel:
 
 * hisztogram
 * boxplot
 * kördiagram
-* sűrűségfüggvény
+* kernel sűrűségbecslés (KDE)
 * dataframe
 * Welch-féle t-próba
 
@@ -59,6 +59,13 @@ A `project_sources` mappában találhatók:
 
 ---
 
+## Követelmények:
+Bár a projekt Google Colab környezetben fut, ahol a fent felsorolt könyvtárak telepítése nélkül is működik, lokális futtatás esetén telepítsd a következőket:
+
+pip install pandas numpy matplotlib seaborn scipy
+
+---
+
 ## Futtatási környezet:
 
 * Google Colab
@@ -68,12 +75,9 @@ A `project_sources` mappában találhatók:
 
 ## Futtatás:
 
-1. Nyisd meg a `Projekt.ipynb` fájlt Google Colabban
-2. Nyomd meg az oldalsó mappa ikont
-3. Majd az ott megjelenő opciók közül arra a mappára kell kattintani ami mellett ".." szerepel
-4. Az itt megjelenő listából meg kell keresni a "content" nevű mappát 
-5. A content mappába töltsd fel a `project_sources` mappát
-6. Futtasd a cellákat sorrendben
+1. Nyisd meg a `Projekt.ipynb` fájlt Google Colabba 
+2. A '/content' könyvtárba töltsd fel a `project_sources` mappát
+3. Futtasd a cellákat sorrendben
 
 ---
 
