@@ -41,7 +41,7 @@ Végül nagyobb adathalmazokon vizsgálja a projekt a stressz és a magasság k�
 
 * statistics
 * math
-* scipyból stats
+* scipy.stats
 
 ---
 
