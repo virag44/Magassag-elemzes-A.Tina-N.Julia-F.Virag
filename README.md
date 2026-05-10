@@ -9,14 +9,16 @@ A projekt röviden bemutatja az egyéni várható magasság becslésének lehet�
 * kevésbé pontos módszerek (pl. szülők magasságának átlagolása, Tanner-módszer)
 * pontosabb eljárások (pl. Khamis–Roche módszer, csontröntgen alapú becslés)
 
-Ezt követően egy kisebb, körülbelül 47 fős adathalmaz elemzése történik különböző ábrák segítségével:
+Ezt követően egy kisebb, 48 fős adathalmaz elemzése történik a következő eszközökkel:
 
 * hisztogram
 * boxplot
 * kördiagram
 * sűrűségfüggvény
+* dataframe
+* Welch-féle t-próba
 
-Végül nagyobb adathalmazokon vizsgálja a projekt a stressz és a magasság közötti kapcsolatot.
+Végül nagyobb adathalmazokon vizsgálja a projekt a stressz és a magasság közötti kapcsolatot például oszlopdiagramokkal, Welch-féle t-próbával, dataframe és táblázat kíséretével.
 
 ---
 
@@ -32,6 +34,14 @@ Végül nagyobb adathalmazokon vizsgálja a projekt a stressz és a magasság k�
 * pandas
 * numpy
 * seaborn
+
+---
+
+## Használt modulok:
+
+* statistics
+* math
+* scipyból stats
 
 ---
 
@@ -59,8 +69,11 @@ A `project_sources` mappában találhatók:
 ## Futtatás:
 
 1. Nyisd meg a `Projekt.ipynb` fájlt Google Colabban
-2. Töltsd fel a `project_sources` mappát
-3. Futtasd a cellákat sorrendben
+2. Nyomd meg az oldalsó mappa ikont
+3. Majd az ott megjelenő opciók közül arra a mappára kell kattintani ami mellett ".." szerepel
+4. Az itt megjelenő listából meg kell keresni a "content" nevű mappát 
+5. A content mappába töltsd fel a `project_sources` mappát
+6. Futtasd a cellákat sorrendben
 
 ---
 
