@@ -1,12 +1,13 @@
-Görögország,165cm,1
-Lengyelország,165cm,1 
-Csehország,165cm,1 
-Belgium,166cm,2       
-Ausztria,166cm,2       
-Németország,167cm,3    
-Svédország,167cm,3     
-Hollandia,167cm,3  
-Izland,168cm,4 
-Dánia,168cm,4 
+Svédország,166cm,1
+Norvégia,166cm,1
+Finnország,166cm,1
+Slovákia,167cm,2
+Latvia,168cm,3
+Dánia,169cm,4
+Izland,168cm,3
+Észtország,168cm,3
+Montenegro,169cm,4
+Hollandia,170cm,5
+
  
     
