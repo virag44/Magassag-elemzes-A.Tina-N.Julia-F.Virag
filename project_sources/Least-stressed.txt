@@ -4,7 +4,7 @@ Svédország,2
 Finország,4
 Hollandia,5
 Luxenburg,6
-Szlovénia,7
+Szlovákia,7
 Dánia,8
 Norvégia,9
 Litvánia,10
